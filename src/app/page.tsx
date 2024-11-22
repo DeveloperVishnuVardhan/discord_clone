@@ -10,7 +10,8 @@ export default function Home() {
   const createMessage1 = useMutation(api.functions.messages.create);
   const createMessage2 = useMutation(api.functions.messages.create);
   const createMessage3 = useMutation(api.functions.messages.create);
-  const createMessage3 = useMutation(api.functions.messages.create);
+  const createMessage4 = useMutation(api.functions.messages.create);
+  
 
   const [input, setInput] = useState("");
 
