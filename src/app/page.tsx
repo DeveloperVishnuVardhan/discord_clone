@@ -7,13 +7,13 @@ import { SignInButton } from "@clerk/nextjs";
 
 export default function Home() {
   const messages = useQuery(api.functions.messages.list);
-  const createMessage = useMutation(api.functions.messages.create)
+  const createMessage1 = useMutation(api.functions.messages.create)
 
   const [input, setInput] = useState("");
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    createMessage({sender: "Vishnu", content: input})
+    createMessage1({sender: "Sreekar", content: input})
     setInput("");
   }
   return (
