@@ -7,9 +7,10 @@ import { SignInButton } from "@clerk/nextjs";
 
 export default function Home() {
   const messages = useQuery(api.functions.messages.list);
-  const createMessage1 = useMutation(api.functions.messages.create)
-  const createMessage2 = useMutation(api.functions.messages.create)
-  const createMessage3 = useMutation(api.functions.messages.create)
+  const createMessage1 = useMutation(api.functions.messages.create);
+  const createMessage2 = useMutation(api.functions.messages.create);
+  const createMessage3 = useMutation(api.functions.messages.create);
+  const createMessage3 = useMutation(api.functions.messages.create);
 
   const [input, setInput] = useState("");
 
