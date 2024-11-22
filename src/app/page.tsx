@@ -13,7 +13,7 @@ export default function Home() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    createMessage({sender: "Alice", content: input})
+    createMessage({sender: "Vishnu", content: input})
     setInput("");
   }
   return (
